@@ -1,0 +1,90 @@
+body, html{
+    height: 100%;
+    font-family: "Courier New";
+    color: black;
+   
+}
+body{
+    position: relative;
+}
+.wrapper{
+width:600px;
+margin:0 auto;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%)
+}
+.header{
+    line-height: 0px;
+}
+.logo{
+    width: 150px;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 5px;
+}
+.time{
+    margin-bottom:50px;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.mosaic img{
+width:100px;
+height:70px;
+box-sizing: border-box;
+padding: 1px;
+overflow: hidden;
+}
+.mosaic {
+margin-bottom:30px;
+line-height: 0px;
+}
+.left{
+    display: inline-block;
+}
+.left ul{
+margin:0;
+padding:0;
+}
+.right ul{
+    margin:0;
+    padding:0;
+}
+.right {
+    float: right;
+    display: inline-block;
+    }
+footer ul{
+    display: inline-block;
+    list-style:none;
+    line-height:11px;
+    font-size:11px;
+   }
+  footer a{
+    text-decoration: none;
+    color:black;
+}
+    footer a:hover{
+        color:white;
+        background: red;
+   }
+   #red{
+       color:red;
+   }
+   #red:hover{
+    color:white;
+        background: red;   
+   }
+   p{
+       margin:0;
+       padding: 0;
+       display: inline-block;
+   }
+   #time-zone-name{
+    margin:0;
+    padding: 0; 
+    display: inline-block;
+   }
